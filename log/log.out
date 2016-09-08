@@ -1,0 +1,112 @@
+2016-03-22 17:58:09 INFO  EmployeeServiceImpl:82 - *** checking login credentials, if true then getting employee object else null  in EmployeeService  ***
+2016-03-22 17:58:09 INFO  EmployeeServiceImpl:40 - *** getting departments in EmployeeService ***
+2016-03-22 17:58:09 INFO  EmployeeServiceImpl:82 - *** checking login credentials, if true then getting employee object else null  in EmployeeService  ***
+2016-03-22 17:58:09 INFO  EmployeeServiceImpl:70 - *** getting employess by employee id in EmployeeService ***
+2016-03-22 17:58:09 INFO  EmployeeServiceImpl:34 - *** registering employee in EmployeeService ***
+2016-03-22 17:58:09 INFO  EmployeeServiceImpl:70 - *** getting employess by employee id in EmployeeService ***
+2016-03-22 17:58:09 INFO  EmployeeServiceImpl:34 - *** registering employee in EmployeeService ***
+2016-03-22 17:58:09 INFO  EmployeeServiceImpl:76 - *** getting employess by manager id in EmployeeService ***
+2016-03-22 17:58:09 INFO  EmployeeServiceImpl:40 - *** getting departments in EmployeeService ***
+2016-03-22 17:58:09 INFO  EmployeeServiceImpl:76 - *** getting employess by manager id in EmployeeService ***
+2016-03-22 17:58:09 INFO  EmployeeServiceImpl:58 - *** getting employees in EmployeeService ***
+2016-03-22 17:58:09 INFO  EmployeeServiceImpl:99 - ***  Adding bank account in employee Service and getting bankAccount object in return ***
+2016-03-22 17:58:09 INFO  EmployeeServiceImpl:94 - *** getting designations in EmployeeService ***
+2016-03-22 17:58:09 INFO  EmployeeServiceImpl:99 - ***  Adding bank account in employee Service and getting bankAccount object in return ***
+2016-03-22 17:58:09 INFO  EmployeeServiceImpl:94 - *** getting designations in EmployeeService ***
+2016-03-22 17:58:09 INFO  EmployeeServiceImpl:52 - *** getting genders in EmployeeService ***
+2016-03-22 17:58:09 INFO  VoucherServiceImpl:34 - *** getting levels in VoucherService ***
+2016-03-22 17:58:09 INFO  VoucherServiceImpl:29 - *** getting titles in VoucherService ***
+2016-03-22 17:58:09 INFO  VoucherServiceImpl:64 - *** updating voucher in VoucherService ***
+2016-03-22 17:58:09 INFO  VoucherServiceImpl:64 - *** updating voucher in VoucherService ***
+2016-03-22 17:58:09 INFO  VoucherServiceImpl:44 - *** getting all vouchers in VoucherService  ***
+2016-03-22 17:58:09 INFO  VoucherServiceImpl:39 - *** adding voucher in VoucherService ***
+2016-03-22 17:58:09 INFO  VoucherServiceImpl:44 - *** getting all vouchers in VoucherService  ***
+2016-03-22 17:58:09 INFO  VoucherServiceImpl:39 - *** adding voucher in VoucherService ***
+2016-03-22 17:58:09 INFO  VoucherServiceImpl:59 - *** getting voucher by voucher id in VoucherService ***
+2016-03-22 17:58:09 INFO  VoucherServiceImpl:49 - *** getting status as map in VoucherService  ***
+2016-03-22 17:58:09 INFO  VoucherServiceImpl:54 - *** getting status as list in VoucherService ***
+2016-03-22 17:58:09 INFO  VoucherServiceImpl:59 - *** getting voucher by voucher id in VoucherService ***
+2016-03-22 17:59:19 INFO  EmployeeServiceImpl:82 - *** checking login credentials, if true then getting employee object else null  in EmployeeService  ***
+2016-03-22 17:59:19 INFO  EmployeeServiceImpl:40 - *** getting departments in EmployeeService ***
+2016-03-22 17:59:19 INFO  EmployeeServiceImpl:82 - *** checking login credentials, if true then getting employee object else null  in EmployeeService  ***
+2016-03-22 17:59:19 INFO  EmployeeServiceImpl:70 - *** getting employess by employee id in EmployeeService ***
+2016-03-22 17:59:19 INFO  EmployeeServiceImpl:34 - *** registering employee in EmployeeService ***
+2016-03-22 17:59:19 INFO  EmployeeServiceImpl:70 - *** getting employess by employee id in EmployeeService ***
+2016-03-22 17:59:19 INFO  EmployeeServiceImpl:34 - *** registering employee in EmployeeService ***
+2016-03-22 17:59:19 INFO  EmployeeServiceImpl:76 - *** getting employess by manager id in EmployeeService ***
+2016-03-22 17:59:19 INFO  EmployeeServiceImpl:40 - *** getting departments in EmployeeService ***
+2016-03-22 17:59:19 INFO  EmployeeServiceImpl:76 - *** getting employess by manager id in EmployeeService ***
+2016-03-22 17:59:19 INFO  EmployeeServiceImpl:58 - *** getting employees in EmployeeService ***
+2016-03-22 17:59:19 INFO  EmployeeServiceImpl:99 - ***  Adding bank account in employee Service and getting bankAccount object in return ***
+2016-03-22 17:59:19 INFO  EmployeeServiceImpl:94 - *** getting designations in EmployeeService ***
+2016-03-22 17:59:19 INFO  EmployeeServiceImpl:99 - ***  Adding bank account in employee Service and getting bankAccount object in return ***
+2016-03-22 17:59:19 INFO  EmployeeServiceImpl:94 - *** getting designations in EmployeeService ***
+2016-03-22 17:59:19 INFO  EmployeeServiceImpl:52 - *** getting genders in EmployeeService ***
+2016-03-22 17:59:19 INFO  VoucherServiceImpl:34 - *** getting levels in VoucherService ***
+2016-03-22 17:59:19 INFO  VoucherServiceImpl:29 - *** getting titles in VoucherService ***
+2016-03-22 17:59:19 INFO  VoucherServiceImpl:64 - *** updating voucher in VoucherService ***
+2016-03-22 17:59:19 INFO  VoucherServiceImpl:64 - *** updating voucher in VoucherService ***
+2016-03-22 17:59:19 INFO  VoucherServiceImpl:44 - *** getting all vouchers in VoucherService  ***
+2016-03-22 17:59:19 INFO  VoucherServiceImpl:39 - *** adding voucher in VoucherService ***
+2016-03-22 17:59:19 INFO  VoucherServiceImpl:44 - *** getting all vouchers in VoucherService  ***
+2016-03-22 17:59:19 INFO  VoucherServiceImpl:39 - *** adding voucher in VoucherService ***
+2016-03-22 17:59:19 INFO  VoucherServiceImpl:59 - *** getting voucher by voucher id in VoucherService ***
+2016-03-22 17:59:19 INFO  VoucherServiceImpl:49 - *** getting status as map in VoucherService  ***
+2016-03-22 17:59:19 INFO  VoucherServiceImpl:54 - *** getting status as list in VoucherService ***
+2016-03-22 17:59:19 INFO  VoucherServiceImpl:59 - *** getting voucher by voucher id in VoucherService ***
+2016-03-22 18:08:45 INFO  VoucherServiceImpl:34 - *** getting levels in VoucherService ***
+2016-03-22 18:08:46 INFO  VoucherServiceImpl:29 - *** getting titles in VoucherService ***
+2016-03-22 18:08:46 INFO  VoucherServiceImpl:64 - *** updating voucher in VoucherService ***
+2016-03-22 18:08:46 INFO  VoucherServiceImpl:64 - *** updating voucher in VoucherService ***
+2016-03-22 18:08:46 INFO  VoucherServiceImpl:44 - *** getting all vouchers in VoucherService  ***
+2016-03-22 18:08:46 INFO  VoucherServiceImpl:39 - *** adding voucher in VoucherService ***
+2016-03-22 18:08:46 INFO  VoucherServiceImpl:44 - *** getting all vouchers in VoucherService  ***
+2016-03-22 18:08:46 INFO  VoucherServiceImpl:39 - *** adding voucher in VoucherService ***
+2016-03-22 18:08:46 INFO  VoucherServiceImpl:59 - *** getting voucher by voucher id in VoucherService ***
+2016-03-22 18:08:46 INFO  VoucherServiceImpl:49 - *** getting status as map in VoucherService  ***
+2016-03-22 18:08:46 INFO  VoucherServiceImpl:54 - *** getting status as list in VoucherService ***
+2016-03-22 18:08:46 INFO  VoucherServiceImpl:59 - *** getting voucher by voucher id in VoucherService ***
+2016-03-22 18:08:46 INFO  EmployeeServiceImpl:82 - *** checking login credentials, if true then getting employee object else null  in EmployeeService  ***
+2016-03-22 18:08:46 INFO  EmployeeServiceImpl:40 - *** getting departments in EmployeeService ***
+2016-03-22 18:08:46 INFO  EmployeeServiceImpl:82 - *** checking login credentials, if true then getting employee object else null  in EmployeeService  ***
+2016-03-22 18:08:46 INFO  EmployeeServiceImpl:70 - *** getting employess by employee id in EmployeeService ***
+2016-03-22 18:08:46 INFO  EmployeeServiceImpl:34 - *** registering employee in EmployeeService ***
+2016-03-22 18:08:46 INFO  EmployeeServiceImpl:70 - *** getting employess by employee id in EmployeeService ***
+2016-03-22 18:08:46 INFO  EmployeeServiceImpl:34 - *** registering employee in EmployeeService ***
+2016-03-22 18:08:46 INFO  EmployeeServiceImpl:76 - *** getting employess by manager id in EmployeeService ***
+2016-03-22 18:08:46 INFO  EmployeeServiceImpl:40 - *** getting departments in EmployeeService ***
+2016-03-22 18:08:46 INFO  EmployeeServiceImpl:76 - *** getting employess by manager id in EmployeeService ***
+2016-03-22 18:08:46 INFO  EmployeeServiceImpl:58 - *** getting employees in EmployeeService ***
+2016-03-22 18:08:46 INFO  EmployeeServiceImpl:99 - ***  Adding bank account in employee Service and getting bankAccount object in return ***
+2016-03-22 18:08:46 INFO  EmployeeServiceImpl:94 - *** getting designations in EmployeeService ***
+2016-03-22 18:08:46 INFO  EmployeeServiceImpl:99 - ***  Adding bank account in employee Service and getting bankAccount object in return ***
+2016-03-22 18:08:46 INFO  EmployeeServiceImpl:94 - *** getting designations in EmployeeService ***
+2016-03-22 18:08:46 INFO  EmployeeServiceImpl:52 - *** getting genders in EmployeeService ***
+2016-03-22 18:39:16 INFO  EmployeeServiceImpl:82 - *** checking login credentials, if true then getting employee object else null  in EmployeeService  ***
+2016-03-22 18:39:16 INFO  EmployeeServiceImpl:40 - *** getting departments in EmployeeService ***
+2016-03-22 18:39:16 INFO  EmployeeServiceImpl:82 - *** checking login credentials, if true then getting employee object else null  in EmployeeService  ***
+2016-03-22 18:39:16 INFO  EmployeeServiceImpl:70 - *** getting employess by employee id in EmployeeService ***
+2016-03-22 18:39:16 INFO  EmployeeServiceImpl:34 - *** registering employee in EmployeeService ***
+2016-03-22 18:39:16 INFO  EmployeeServiceImpl:70 - *** getting employess by employee id in EmployeeService ***
+2016-03-22 18:39:16 INFO  EmployeeServiceImpl:34 - *** registering employee in EmployeeService ***
+2016-03-22 18:39:16 INFO  EmployeeServiceImpl:76 - *** getting employess by manager id in EmployeeService ***
+2016-03-22 18:39:16 INFO  EmployeeServiceImpl:40 - *** getting departments in EmployeeService ***
+2016-03-22 18:39:16 INFO  EmployeeServiceImpl:76 - *** getting employess by manager id in EmployeeService ***
+2016-03-22 18:39:16 INFO  EmployeeServiceImpl:58 - *** getting employees in EmployeeService ***
+2016-03-22 18:39:16 INFO  EmployeeServiceImpl:99 - ***  Adding bank account in employee Service and getting bankAccount object in return ***
+2016-03-22 18:39:16 INFO  EmployeeServiceImpl:94 - *** getting designations in EmployeeService ***
+2016-03-22 18:39:16 INFO  EmployeeServiceImpl:99 - ***  Adding bank account in employee Service and getting bankAccount object in return ***
+2016-03-22 18:39:16 INFO  EmployeeServiceImpl:94 - *** getting designations in EmployeeService ***
+2016-03-22 18:39:16 INFO  EmployeeServiceImpl:52 - *** getting genders in EmployeeService ***
+2016-03-22 18:39:16 INFO  VoucherServiceImpl:34 - *** getting levels in VoucherService ***
+2016-03-22 18:39:16 INFO  VoucherServiceImpl:29 - *** getting titles in VoucherService ***
+2016-03-22 18:39:16 INFO  VoucherServiceImpl:64 - *** updating voucher in VoucherService ***
+2016-03-22 18:39:16 INFO  VoucherServiceImpl:64 - *** updating voucher in VoucherService ***
+2016-03-22 18:39:16 INFO  VoucherServiceImpl:44 - *** getting all vouchers in VoucherService  ***
+2016-03-22 18:39:16 INFO  VoucherServiceImpl:39 - *** adding voucher in VoucherService ***
+2016-03-22 18:39:16 INFO  VoucherServiceImpl:44 - *** getting all vouchers in VoucherService  ***
+2016-03-22 18:39:16 INFO  VoucherServiceImpl:39 - *** adding voucher in VoucherService ***
+2016-03-22 18:39:16 INFO  VoucherServiceImpl:59 - *** getting voucher by voucher id in VoucherService ***
+2016-03-22 18:39:16 INFO  VoucherServiceImpl:49 - *** getting status as map in VoucherService  ***
+2016-03-22 18:39:16 INFO  VoucherServiceImpl:54 - *** getting status as list in VoucherService ***
+2016-03-22 18:39:16 INFO  VoucherServiceImpl:59 - *** getting voucher by voucher id in VoucherService ***

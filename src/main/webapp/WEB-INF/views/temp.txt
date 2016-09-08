@@ -1,0 +1,32 @@
+@RequestMapping(value = "/Manage Vouchers/{status}/List/{excelName}")
+    public ModelAndView downloadExcelVouchers(ModelAndView modelAndView,
+            @PathVariable("status") String status) {
+
+        List<Voucher> vouchers = (List<Voucher>) voucherService
+                .getVouchers(status);
+
+        modelAndView.addObject("vouchersList", vouchers);
+        modelAndView.setViewName("VoucherListExcelBuilder");
+        return modelAndView;
+    }
+    
+    
+    
+    
+views.properties
+
+VoucherListExcelBuilder.(class)=com.virtusa.eems.file.download.VoucherListExcelBuilder
+VoucherExcelBuilder.(class)=com.virtusa.eems.file.download.VoucherExcelBuilder
+
+
+pom.xml
+
+<dependency>
+
+            <groupId>org.apache.poi</groupId>
+
+            <artifactId>poi</artifactId>
+
+            <version>3.7</version>
+
+</dependency>

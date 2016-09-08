@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.1.xsd
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.1.xsd">
+
+	<context:annotation-config />
+	<mvc:annotation-driven />
+	<tx:annotation-driven />
+	<context:component-scan base-package="com.virtusa.eems" />
+	<mvc:resources location="resources/" mapping="/resources/**" />
+
+
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
+		<property value="oracle.jdbc.OracleDriver" name="driverClassName" />
+
+		<property value="jdbc:oracle:thin:@localhost:1521:xe" name="url" />
+
+		<property value="system" name="username" />
+
+		<property value="pari123" name="password" />
+	</bean>
+
+	<bean id="mysessionFactory"
+		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="annotatedClasses">
+			<list>
+				<value>com.virtusa.eems.beans.Voucher</value>
+				<value>com.virtusa.eems.beans.Activity</value>
+				<value>com.virtusa.eems.beans.Address</value>
+				<value>com.virtusa.eems.beans.BankAccount</value>
+				<value>com.virtusa.eems.beans.Department</value>
+				<value>com.virtusa.eems.beans.Designation</value>
+				<value>com.virtusa.eems.beans.Employee</value>
+				<value>com.virtusa.eems.beans.Level</value>
+				<value>com.virtusa.eems.beans.Status</value>
+				<value>com.virtusa.eems.beans.Title</value>
+				<value>com.virtusa.eems.beans.Gender</value>
+
+			</list>
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.OracleDialect</prop>
+				<!-- <prop key="hibernate.current_session_context_class">thread</prop> -->
+				<prop key="hibernate.show_sql">true</prop>
+				<prop key="hibernate.hbm2ddl.auto">update</prop>
+			</props>
+		</property>
+	</bean>
+
+
+	<bean id="transactionManager"
+		class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+
+		<property name="sessionFactory" ref="mysessionFactory"></property>
+
+	</bean>
+
+
+	<bean id="viewResolver"
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/views/"></property>
+		<property name="suffix" value=".jsp"></property>
+	</bean>
+
+	<bean class="org.springframework.web.servlet.view.ResourceBundleViewResolver"
+		id="viewResolver1">
+
+		<property value="1" name="order" />
+
+		<property value="views" name="basename" />
+	</bean>
+	
+	<bean id="RegistrationValidator" class="com.virtusa.eems.validations.RegistrationValidator"></bean>
+
+</beans>
